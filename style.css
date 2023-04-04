@@ -1,0 +1,99 @@
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  /* background-color: white; */
+  background-image: url(https://thumbs.dreamstime.com/b/fundo-com-rosas-claras-76212543.jpg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(15, 70, 219);
+  width: 400px;
+  height: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border-radius: 20px; */
+  border-start-start-radius: 26%;
+  /* border-color: blanchedalmond; */
+  box-shadow: 0 0 22px rgb(1, 18, 36);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 89%;
+  height: 70px;
+  font: bold 2.1rem serif;
+  border-bottom: solid 5px black;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+
+  /* color: white; */
+}
+.input input {
+  width: 200px;
+  height: 50px;
+  border-radius: 14px;
+  border: none;
+  outline: 0;
+  font: bold 1.5rem serif;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.input label {
+  font: bold 1.5rem serif;
+  font-size: 23px;
+  color: white;
+  /* border-radius: 20px; */
+  /* color: aqua; */
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  font: bold 1.2rem serif;
+  background: black;
+  color: white;
+  outline: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  border-radius: 15px;
+  border-color: transparent;
+  /* font-size: 26px; */
+}
+
+.result {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  font: italic 1.5rem serif;
+  box-shadow: 0px 0px 10px rgb(5, 5, 5);
+  background: #070407;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+  border-radius: 20px;
+}
